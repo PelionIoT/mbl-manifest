@@ -25,4 +25,5 @@
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="51d0de5f83991c032c6e300b30eebb73367dc7d2" upstream="master"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="b063789560bfb9c60a7a15277b5b3a9839b5ba74" upstream="master"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="598e5da5a2af2bd93ad890687dd32009e348fc85" upstream="master"/>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="3da125e581eebdf6729a1fcc122070e91ae174dd" upstream="master"/>
 </manifest>
