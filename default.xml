@@ -20,7 +20,7 @@
   <project name="git/meta-ti" path="layers/meta-ti" remote="yocto">
     <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
-  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="dd49614c70364a11dc50798f32f1b2ffa3d0409e" upstream="master"/>
+  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="87b4527787559e02bf22f1dabc7cc1da17934d9f" upstream="master"/>
   <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github"/>
   <project name="ndechesne/meta-qcom" path="layers/meta-qcom" remote="github"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github"/>
