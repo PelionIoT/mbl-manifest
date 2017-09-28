@@ -256,10 +256,10 @@ if [ ! -e conf/site.conf ]; then
 SCONF_VERSION = "1"
 
 # Where to store sources
-DL_DIR = "${OEROOT}/downloads"
+DL_DIR ?= "${OEROOT}/downloads"
 
 # Where to save shared state
-SSTATE_DIR = "${OEROOT}/sstate-cache"
+SSTATE_DIR ?= "${OEROOT}/sstate-cache"
 
 TMPDIR = "${BUILDDIR}/tmp-${DISTRO_DIRNAME}"
 
