@@ -10,21 +10,21 @@
 
   <default revision="master" sync-j="4"/>
 
-  <project name="96boards/meta-96boards" path="layers/meta-96boards" remote="github"/>
-  <project name="96boards/meta-rpb" path="layers/meta-rpb" remote="github"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github"/>
-  <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github"/>
-  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github"/>
-  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
-  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
-  <project name="git/meta-ti" path="layers/meta-ti" remote="yocto">
+  <project name="96boards/meta-96boards" path="layers/meta-96boards" remote="github" revision="8caa1b25ed8ce65e466f0a31d6bffe742f2293c0" upstream="master"/>
+  <project name="96boards/meta-rpb" path="layers/meta-rpb" remote="github" revision="00ea820a340a12ea15a543d6f022f20f3c74480e" upstream="master"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="1f37698ac62945b6531a316ec1232af23cc6c050" upstream="master"/>
+  <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github" revision="e3c3aa0591506672245904227a46519a276957e0" upstream="master"/>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="164b9c8665c6ff8df092d5393283ccbea132c94b" upstream="master"/>
+  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="a65d13c315db447adda68b47faeb4c0afd0655b8" upstream="master"/>
+  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="a71483f9d91a2186744792447dc062b505607026" upstream="master"/>
+  <project name="git/meta-ti" path="layers/meta-ti" remote="yocto" revision="aca8f5d6ff8a529e00bdeae5b401c791ed6ecb2b" upstream="master">
     <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
-  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
-  <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github"/>
-  <project name="ndechesne/meta-qcom" path="layers/meta-qcom" remote="github"/>
-  <project name="openembedded/bitbake" path="bitbake" remote="github"/>
-  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
-  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
-  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
+  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="dd49614c70364a11dc50798f32f1b2ffa3d0409e" upstream="master"/>
+  <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github" revision="8960831c154848e42bc433871a7424d7d39ddbdc" upstream="master"/>
+  <project name="ndechesne/meta-qcom" path="layers/meta-qcom" remote="github" revision="bf52f018c832576aaefd7b944094116ad6538b1d" upstream="master"/>
+  <project name="openembedded/bitbake" path="bitbake" remote="github" revision="362f6044fcaafe51ab4377af8f2606165b112717" upstream="master"/>
+  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="51d0de5f83991c032c6e300b30eebb73367dc7d2" upstream="master"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="b063789560bfb9c60a7a15277b5b3a9839b5ba74" upstream="master"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="598e5da5a2af2bd93ad890687dd32009e348fc85" upstream="master"/>
 </manifest>
