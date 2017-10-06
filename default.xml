@@ -17,7 +17,7 @@
   <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="164b9c8665c6ff8df092d5393283ccbea132c94b" upstream="master"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="a71483f9d91a2186744792447dc062b505607026" upstream="master"/>
-  <project name="git/meta-ti" path="layers/meta-ti" remote="yocto" revision="aca8f5d6ff8a529e00bdeae5b401c791ed6ecb2b" upstream="master">
+  <project name="git/meta-ti" path="layers/meta-ti" remote="yocto">
     <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="f0f0453984192fd1b250785d2088a84733065c28" upstream="master"/>
