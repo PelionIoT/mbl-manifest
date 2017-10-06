@@ -11,7 +11,7 @@
   <default revision="master" sync-j="4"/>
 
   <project name="96boards/meta-96boards" path="layers/meta-96boards" remote="github"/>
-  <project name="96boards/meta-rpb" path="layers/meta-rpb" remote="github" revision="00ea820a340a12ea15a543d6f022f20f3c74480e" upstream="master"/>
+  <project name="96boards/meta-rpb" path="layers/meta-rpb" remote="github"/>
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github"/>
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github"/>
   <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="164b9c8665c6ff8df092d5393283ccbea132c94b" upstream="master"/>
