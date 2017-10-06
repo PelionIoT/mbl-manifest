@@ -16,7 +16,7 @@
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github"/>
   <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="164b9c8665c6ff8df092d5393283ccbea132c94b" upstream="master"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
-  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="a71483f9d91a2186744792447dc062b505607026" upstream="master"/>
+  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="43e0169ab7f5143fab3ec12a788557a6306c8476" upstream="master"/>
   <project name="git/meta-ti" path="layers/meta-ti" remote="yocto">
     <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
