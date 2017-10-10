@@ -14,13 +14,13 @@
   <project name="96boards/meta-rpb" path="layers/meta-rpb" remote="github"/>
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github"/>
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github"/>
-  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="164b9c8665c6ff8df092d5393283ccbea132c94b" upstream="master"/>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="43e0169ab7f5143fab3ec12a788557a6306c8476" upstream="master"/>
   <project name="git/meta-ti" path="layers/meta-ti" remote="yocto">
     <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
-  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="f0f0453984192fd1b250785d2088a84733065c28" upstream="master"/>
+  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="d2dbd7d8d25b96d5ec58c693c50eb6159b8e4c96" upstream="master"/>
   <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github"/>
   <project name="ndechesne/meta-qcom" path="layers/meta-qcom" remote="github"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github"/>
