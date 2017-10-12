@@ -13,7 +13,7 @@
     <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
   </project>
   <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" />
-  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
+  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="3351b1c100b7a7da1cdc15c2d6d4ccb502bc4ba5" upstream="master"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github"/>
