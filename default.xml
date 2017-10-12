@@ -14,7 +14,7 @@
   <project name="96boards/meta-rpb" path="layers/meta-rpb" remote="github"/>
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github"/>
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github"/>
-  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="164b9c8665c6ff8df092d5393283ccbea132c94b" upstream="master"/>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="58d6f92679f9bc102bd866f3594d1ddd5a2e4316" upstream="master"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="43e0169ab7f5143fab3ec12a788557a6306c8476" upstream="master"/>
   <project name="git/meta-ti" path="layers/meta-ti" remote="yocto">
@@ -26,5 +26,5 @@
   <project name="openembedded/bitbake" path="bitbake" remote="github"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="cff46fec3b67cf4f7fa8bd5fa7a6a485793c1213" upstream="master"/>
-  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="8aaf09a916a2f66f1a6a79cbddf45390ecefde4f" upstream="master"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="b322e1b1cb4cd4d4cc53f868b53ca9b069772755" upstream="master"/>
 </manifest>
