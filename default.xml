@@ -11,11 +11,12 @@
   <default revision="pyro" sync-j="4"/>
 
   <project name="96boards/meta-96boards" path="layers/meta-96boards" remote="github"/>
-  <project name="96boards/meta-rpb" path="layers/meta-rpb" remote="github">
-      <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
-  </project>
+  <project name="96boards/meta-rpb" path="layers/meta-rpb" remote="github"/>
   <project name="OSSystems/meta-browser" path="layers/meta-browser" revision="master" remote="github"/>
-  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github"/>
+  <project name="armmbed/mbl-config" path="conf" remote="github">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+    <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
+  </project><project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
   <project name="git/meta-ti" path="layers/meta-ti" revision="master" remote="yocto"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
