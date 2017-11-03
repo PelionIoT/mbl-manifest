@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="ssh://git@github.com" name="github"/>
+
+  <default revision="pyro" sync-j="4"/>
+
+  <include name="default.xml"/>
+  <project name="armmbed/meta-mbl-private" path="layers/meta-mbl-private" remote="github" />
+</manifest>
