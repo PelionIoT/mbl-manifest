@@ -5,6 +5,6 @@
 
   <default revision="master" sync-j="4"/>
 
-  <include name="private.xml"/>
+  <include name="default.xml"/>
   <project name="armmbed/meta-mbl-reference-apps" path="layers/meta-mbl-reference-apps" remote="github" />
 </manifest>
