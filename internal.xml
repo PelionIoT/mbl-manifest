@@ -6,5 +6,5 @@
   <default revision="master" sync-j="4"/>
 
   <include name="default.xml"/>
-  <project name="armmbed/meta-mbl-private" path="layers/meta-mbl-private" remote="github" />
+  <project name="armmbed/meta-mbl-internal-extras" path="layers/meta-mbl-internal-extras" remote="github" />
 </manifest>
