@@ -7,17 +7,17 @@
 
   <default revision="master" sync-j="4"/>
 
-  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" revision="rocko" remote="github"/>
   <project name="armmbed/mbl-config" path="conf" remote="github">
     <linkfile dest="setup-environment" src="setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
   </project>
   <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" />
-  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
-  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
-  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
-  <project name="openembedded/bitbake" path="bitbake" remote="github"/>
-  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
-  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
-  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
+  <project name="git/meta-freescale" path="layers/meta-freescale" revision="rocko" remote="yocto"/>
+  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" revision="rocko" remote="yocto"/>
+  <project name="git/meta-virtualization" path="layers/meta-virtualization" revision="rocko" remote="yocto"/>
+  <project name="openembedded/bitbake" path="bitbake" revision="1.36" remote="github"/>
+  <project name="openembedded/meta-linaro" path="layers/meta-linaro" revision="rocko" remote="linaro"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" revision="rocko" remote="github"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" revision="rocko" remote="github"/>
 </manifest>
