@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="ssh://git@github.com" name="github"/>
+
+  <default revision="master" sync-j="4"/>
+
+  <include name="default.xml"/>
+  <project name="armmbed/meta-mbl-restricted-extras" path="layers/meta-mbl-restricted-extras" remote="github" />
+</manifest>
