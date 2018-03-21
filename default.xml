@@ -5,7 +5,7 @@
   <remote fetch="http://git.linaro.org" name="linaro"/>
   <remote fetch="http://git.yoctoproject.org" name="yocto"/>
 
-  <default revision="master" sync-j="4"/>
+  <default revision="alpha" sync-j="4"/>
 
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" revision="rocko" remote="github"/>
   <project name="armmbed/mbl-config" path="conf" remote="github">
