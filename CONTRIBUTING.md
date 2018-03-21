@@ -6,4 +6,4 @@ The repository follows the "inbound license=outbound license" approach i.e.
 contributions will be accepted under the same license as specified in the
 [License][license-file] file.
 
-[license-file]: LICENSE.md
+[license-file]: LICENSE
