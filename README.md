@@ -1,10 +1,10 @@
-# mbed Linux (mbl) Manifest Repository
+# Mbed Linux (mbl) Manifest Repository
 
 ## Purpose
 
-This is the top level repository containing the repo manifest xml for mbed Linux distributions.
+This is the top level repository containing the repo manifest xml for Mbed Linux distributions.
 
-For more information, please see [meta-mbl][meta-mbl] for more information.
+For more information, please see [meta-mbl][meta-mbl].
 
 
 ## License
