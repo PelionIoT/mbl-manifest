@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="ssh://git@github.com" name="github"/>
+
+  <include name="restricted.xml"/>
+
+  <!-- We inherit a "default revision" from default.xml via restricted.xml -->
+  <project name="armmbed/meta-mbl-internal-extras" path="layers/meta-mbl-internal-extras" revision="master" remote="github" />
+</manifest>

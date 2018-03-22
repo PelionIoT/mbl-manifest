@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="ssh://git@github.com" name="github"/>
+
+  <include name="default.xml"/>
+
+  <!-- We inherit a "default revision" from default.xml -->
+  <project name="armmbed/meta-mbl-reference-apps" path="layers/meta-mbl-reference-apps" revision="master" remote="github" />
+</manifest>
