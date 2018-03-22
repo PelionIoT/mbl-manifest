@@ -3,8 +3,9 @@
 
   <remote fetch="ssh://git@github.com" name="github"/>
 
-  <default revision="master" sync-j="4"/>
-
   <include name="default.xml"/>
-  <project name="armmbed/meta-mbl-reference-apps" path="layers/meta-mbl-reference-apps" remote="github" />
+
+  <!-- We inherit a "default revision" of "alpha" from default.xml but we don't
+       have an alpha branch of this repo yet -->
+  <project name="armmbed/meta-mbl-reference-apps" path="layers/meta-mbl-reference-apps" revision="master" remote="github" />
 </manifest>
