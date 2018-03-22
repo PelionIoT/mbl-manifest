@@ -3,8 +3,9 @@
 
   <remote fetch="ssh://git@github.com" name="github"/>
 
-  <default revision="master" sync-j="4"/>
-
   <include name="restricted.xml"/>
-  <project name="armmbed/meta-mbl-internal-extras" path="layers/meta-mbl-internal-extras" remote="github" />
+
+  <!-- We inherit a "default revision" of "alpha" from default.xml (via
+       restricted.xml) but we don't have an alpha branch of this repo yet -->
+  <project name="armmbed/meta-mbl-internal-extras" path="layers/meta-mbl-internal-extras" revision="master" remote="github" />
 </manifest>

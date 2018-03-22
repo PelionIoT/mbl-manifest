@@ -3,8 +3,8 @@
 
   <remote fetch="ssh://git@github.com" name="github"/>
 
-  <default revision="alpha" sync-j="4"/>
-
   <include name="default.xml"/>
+
+  <!-- We inherit a "default revision" from default.xml -->
   <project name="armmbed/meta-mbl-restricted-extras" path="layers/meta-mbl-restricted-extras" remote="github" />
 </manifest>
