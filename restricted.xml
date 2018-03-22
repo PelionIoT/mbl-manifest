@@ -6,5 +6,5 @@
   <include name="default.xml"/>
 
   <!-- We inherit a "default revision" from default.xml -->
-  <project name="armmbed/meta-mbl-restricted-extras" path="layers/meta-mbl-restricted-extras" remote="github" />
+  <project name="armmbed/meta-mbl-restricted-extras" path="layers/meta-mbl-restricted-extras" revision="master" remote="github" />
 </manifest>
