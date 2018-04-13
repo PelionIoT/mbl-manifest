@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="ssh://git@github.com" name="github"/>
+
+  <default revision="master" sync-j="4"/>
+
+  <include name="internal.xml"/>
+
+  <!-- Ideally we'd get meta-mbl-reference-apps by including
+       reference-apps.xml, but both reference-apps.xml and internal.xml include
+       default.xml so we'd end up with something like the Diamond Problem in
+       multiple inheritance. -->
+  <project name="armmbed/meta-mbl-reference-apps" path="layers/meta-mbl-reference-apps" remote="github" />
+
+  <project name="armmbed/meta-mbl-reference-apps-internal" path="layers/meta-mbl-reference-apps-internal" remote="github" />
+</manifest>
