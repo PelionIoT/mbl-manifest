@@ -19,5 +19,5 @@
   <project name="openembedded/bitbake" path="bitbake" remote="github"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
-  <project name="openembedded/openembedded-core" path="layers/openembedded-core" revision="069426b0a7a6848a9290cd2e8cdce941d7e3c08c" remote="github"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
 </manifest>
