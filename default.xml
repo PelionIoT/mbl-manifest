@@ -14,7 +14,7 @@
   </project>
   <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" />
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
-  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
+  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" revision="j7cd27ce83e19fbc780fc0fff2c5bde864c0293f7" remote="yocto"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
