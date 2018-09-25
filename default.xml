@@ -7,7 +7,7 @@
 
   <default revision="master" sync-j="4"/>
 
-  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="c9318748f14313910888c1769e92542b16da5fdd"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github"/>
   <project name="armmbed/mbl-config" path="conf" remote="github">
     <linkfile dest="setup-environment" src="setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
