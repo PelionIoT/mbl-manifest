@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote fetch="ssh://git@github.com" name="github"/>
   <remote fetch="http://git.linaro.org" name="linaro"/>
   <remote fetch="http://git.yoctoproject.org" name="yocto"/>
 
-  <default revision="master" sync-j="4"/>
+  <default revision="mbl-os-0.4" sync-j="4"/>
 
-  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github"/>
-  <project name="armmbed/mbl-config" path="conf" remote="github">
+  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="3f892ee6b50cd20fdc28483e360e37b24b63d025" upstream="master"/>
+  <project name="armmbed/mbl-config" path="conf" remote="github" revision="30249a1cfcdec9dc66375698fce466b7583f0c7d" upstream="master">
     <linkfile dest="setup-environment" src="setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
   </project>
   <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github"/>
-  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
-  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
-  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
-  <project name="openembedded/bitbake" path="bitbake" remote="github"/>
-  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
-  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
-  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
+  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="d2bff417fa7953303f3111731638f8c0d2336510" upstream="master"/>
+  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="4f3a81e1653cbcc87afec8c2ab86593135f75711" upstream="master"/>
+  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="a09215388113528583d017eee3a87f0d3db9420f" upstream="master"/>
+  <project name="openembedded/bitbake" path="bitbake" remote="github" revision="9c6b39adf9781fa6745f48913a97c859fa37eb5b" upstream="master"/>
+  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="fca140e5e15831e31bb4d3916d191b4b3176fc5c" upstream="master"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="5f23d82175a38542b76b5aa2a0d1db680ca68752" upstream="master"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="4dad1568f8f84ec9de4bf7235822f77a8ee6a413" upstream="master"/>
 </manifest>

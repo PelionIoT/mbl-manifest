@@ -5,6 +5,5 @@
 
   <include name="default.xml"/>
 
-  <!-- We inherit a "default revision" from default.xml -->
-  <project name="armmbed/meta-mbl-reference-apps" path="layers/meta-mbl-reference-apps" remote="github" />
+  <project name="armmbed/meta-mbl-reference-apps" revision="3145bc9545660b20fe894c75ae9612f99a5465c3" path="layers/meta-mbl-reference-apps" remote="github" />
 </manifest>
