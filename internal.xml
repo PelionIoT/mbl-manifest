@@ -5,6 +5,6 @@
 
   <include name="default.xml"/>
 
-  <!-- We inherit a "default revision" from default.xml via restricted.xml -->
-  <project name="armmbed/meta-mbl-internal-extras" path="layers/meta-mbl-internal-extras" remote="github" />
+  <!-- We inherit a "default revision" from default.xml -->
+  <project name="armmbed/meta-mbl-internal-extras" revision="93874ba4a74f216b1fe3b34226172628294cfe76" path="layers/meta-mbl-internal-extras" remote="github" />
 </manifest>

@@ -11,7 +11,7 @@
        reference-apps.xml, but both reference-apps.xml and internal.xml include
        default.xml so we'd end up with something like the Diamond Problem in
        multiple inheritance. -->
-  <project name="armmbed/meta-mbl-reference-apps" path="layers/meta-mbl-reference-apps" remote="github" />
+  <project name="armmbed/meta-mbl-reference-apps" revision="3145bc9545660b20fe894c75ae9612f99a5465c3" path="layers/meta-mbl-reference-apps" remote="github" />
 
-  <project name="armmbed/meta-mbl-reference-apps-internal" path="layers/meta-mbl-reference-apps-internal" remote="github" />
+  <project name="armmbed/meta-mbl-reference-apps-internal" revision="ef1e63c034b3a19c437194e5413d2d8f89458f03" path="layers/meta-mbl-reference-apps-internal" remote="github" />
 </manifest>
