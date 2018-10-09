@@ -3,15 +3,15 @@
   <remote fetch="ssh://git@github.com" name="github"/>
   <remote fetch="http://git.linaro.org" name="linaro"/>
   <remote fetch="http://git.yoctoproject.org" name="yocto"/>
-
+  
   <default revision="mbl-os-0.4" sync-j="4"/>
-
+  
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="3f892ee6b50cd20fdc28483e360e37b24b63d025" upstream="master"/>
   <project name="armmbed/mbl-config" path="conf" remote="github" revision="30249a1cfcdec9dc66375698fce466b7583f0c7d" upstream="master">
     <linkfile dest="setup-environment" src="setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
   </project>
-  <project name="armmbed/meta-mbl" path="layers/meta-mbl" revision="6b472cd249e275b7e3e8e3ab1ab59fb81de48309" remote="github"/>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="6b472cd249e275b7e3e8e3ab1ab59fb81de48309" upstream="mbl-os-0.4"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="d2bff417fa7953303f3111731638f8c0d2336510" upstream="master"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="4f3a81e1653cbcc87afec8c2ab86593135f75711" upstream="master"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="a09215388113528583d017eee3a87f0d3db9420f" upstream="master"/>
