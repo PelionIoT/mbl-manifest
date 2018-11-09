@@ -17,6 +17,6 @@ Please see the [Contributing][mbl-contributing] document for more information.
 
 
 [meta-mbl]: https://github.com/ARMmbed/meta-mbl/blob/master/README.md
-[mbl-license]: LICENSE
+[mbl-license]: LICENSE.md
 [mbl-contributing]: CONTRIBUTING.md
 
