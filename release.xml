@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@github.com" name="github"/>
+  <remote fetch="http://git.linaro.org" name="linaro"/>
+  <remote fetch="http://git.yoctoproject.org" name="yocto"/>
+  
+  <default revision="master" sync-j="4"/>
+  
+  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="3b60f3e31a9aba22bd635d7f0d34fd2304296bdc"/>
+  <project name="armmbed/mbl-config" path="conf" remote="github" revision="ed69136eb1cb629dc5bce84199ef889786610475" upstream="mbl-os-0.6">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+    <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
+  </project>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="8fab5fe8f7053e4e928b61b104b20d1985a7b53e" upstream="mbl-os-0.6"/>
+  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="4ee590743c3c897724c5add273ab04518fece770"/>
+  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="7cfb0e892822f339e8a0c1f0207426cc388daa23"/>
+  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="080f6b412da706e2c2a3c65fd06a05ac1c81880d"/>
+  <project name="openembedded/bitbake" path="bitbake" remote="github" revision="6065540cb923cde2299b1c16a4e2bb9376186799"/>
+  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="7e7f09b731ac8ec09cc87ed058908c8479b8c7ab"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="f352612e772ec19927278b62da153b3164ba08e8"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="ad246f5ce0652bd917d85884176baa746e1379ff"/>
+</manifest>
