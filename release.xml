@@ -11,7 +11,7 @@
     <linkfile dest="setup-environment" src="setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
   </project>
-  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="8fab5fe8f7053e4e928b61b104b20d1985a7b53e" upstream="mbl-os-0.6"/>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="069b37de84496710d4d64e1db8be3abbfb60d130" upstream="mbl-os-0.6"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="4ee590743c3c897724c5add273ab04518fece770"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="7cfb0e892822f339e8a0c1f0207426cc388daa23"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="080f6b412da706e2c2a3c65fd06a05ac1c81880d"/>
