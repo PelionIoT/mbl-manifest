@@ -7,11 +7,11 @@
   <default revision="master" sync-j="4"/>
   
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="3b60f3e31a9aba22bd635d7f0d34fd2304296bdc"/>
-  <project name="armmbed/mbl-config" path="conf" remote="github" revision="9981241562c498a211206378ce8d68f1b86ac85e" upstream="mbl-os-0.6">
+  <project name="armmbed/mbl-config" path="conf" remote="github" revision="f130c87eb924dc9bf5cc1b3fa16008b91fe1a4c7" upstream="mbl-os-0.6">
     <linkfile dest="setup-environment" src="setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
   </project>
-  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="a95a95ede44f8c03a06e36b09f6b4df584c60b2b" upstream="mbl-os-0.6"/>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="9110dc13b0d7f2ee9df0cc1ad27744e82a223c76" upstream="mbl-os-0.6"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="4ee590743c3c897724c5add273ab04518fece770"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="7cfb0e892822f339e8a0c1f0207426cc388daa23"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="080f6b412da706e2c2a3c65fd06a05ac1c81880d"/>
