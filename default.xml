@@ -3,6 +3,7 @@
   <remote fetch="ssh://git@github.com" name="github" />
   <remote fetch="http://git.linaro.org" name="linaro" />
   <remote fetch="http://git.yoctoproject.org" name="yocto" />
+  <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
 
   <default revision="master" sync-j="4" />
 
@@ -19,4 +20,6 @@
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="7e7f09b731ac8ec09cc87ed058908c8479b8c7ab" />
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="f352612e772ec19927278b62da153b3164ba08e8" />
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="ad246f5ce0652bd917d85884176baa746e1379ff" />
+  <project remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25" name="meta-fsl-bsp-release" path="layers/meta-fsl-bsp-release" />
+
 </manifest>
