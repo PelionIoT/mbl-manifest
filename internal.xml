@@ -1,9 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2018-2019, Arm Limited and Contributors. All rights reserved. -->
+<!-- SPDX-License-Identifier: MIT -->
 <manifest>
 
   <remote fetch="ssh://git@github.com" name="github" />
 
   <include name="default.xml" />
-
   
   <project name="armmbed/meta-mbl-internal-extras" path="layers/meta-mbl-internal-extras" remote="github" revision="warrior-dev" />
 </manifest>
