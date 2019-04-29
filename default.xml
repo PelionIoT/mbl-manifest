@@ -6,10 +6,12 @@
   <remote fetch="ssh://git@github.com" name="github"/>
   <remote fetch="http://git.linaro.org" name="linaro"/>
   <remote fetch="http://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
 
   <default revision="master" sync-j="4"/>
 
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github"/>
+  <project name="meta-fsl-bsp-release" path="layers/meta-fsl-bsp-release" remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25" />
   <project name="armmbed/mbl-config" path="conf" remote="github">
     <linkfile dest="setup-environment" src="setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
