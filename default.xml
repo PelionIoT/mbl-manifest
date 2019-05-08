@@ -19,7 +19,7 @@
   <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="warrior-dev"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="9ceb84ee9e2cd42a95eb8dd5848dfbcebb5658c0"/>
-  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="abcdb5841dfffc1ff4410f6c149dc304d4ac5e42"/>
+  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.42"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="7e7f09b731ac8ec09cc87ed058908c8479b8c7ab" upstream="master"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" revision="d42cce95a8717c3e5bba3701b71f2f9822c2d00c" upstream="master" remote="github"/>
