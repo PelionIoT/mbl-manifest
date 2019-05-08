@@ -22,6 +22,6 @@
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.42"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="7e7f09b731ac8ec09cc87ed058908c8479b8c7ab" upstream="master"/>
-  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" revision="d42cce95a8717c3e5bba3701b71f2f9822c2d00c" upstream="master" remote="github"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
 </manifest>
