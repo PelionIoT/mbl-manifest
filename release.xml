@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2018-2019, Arm Limited and Contributors. All rights reserved. -->
+<!-- SPDX-License-Identifier: MIT -->
+<manifest>
+  <remote fetch="https://source.codeaurora.org/external" name="CAF"/>
+  <remote fetch="ssh://git@github.com" name="github"/>
+  <remote fetch="http://git.linaro.org" name="linaro"/>
+  <remote fetch="http://git.yoctoproject.org" name="yocto"/>
+  
+  <default revision="warrior" sync-j="4"/>
+  
+  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="55356fd749bc820521cecfc8cd92e15461f0ff8a"/>
+  <project name="armmbed/mbl-config" path="conf" remote="github" revision="23c457aa5b639c13eec89655f535306805230a05" upstream="mbl-os-0.7">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+    <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
+  </project>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="655eeef63a04972f2063ac3280eab890f0520679" upstream="mbl-os-0.7"/>
+  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="351fccaebc24134746fbeaf6ed4ded5ec899ef82"/>
+  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="7059c374512f1c1c0df9ecab0703d11438bdf78b"/>
+  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="2c6f451aa2b954c0cab2052d4f4635618050f648"/>
+  <project name="imx/meta-fsl-bsp-release" path="layers/meta-fsl-bsp-release" remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25"/>
+  <project name="openembedded/bitbake" path="bitbake" remote="github" revision="2ea1e6720c66841baa5e01c523c86f8ecb03eb7d"/>
+  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="7e7f09b731ac8ec09cc87ed058908c8479b8c7ab"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="6fa72d587aab8e9d56d67a2552eb9cfbe25c86d2"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="a2915db76d6a2007b22b20f945498c84e7fa8132"/>
+</manifest>
