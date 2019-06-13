@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2018-2019, Arm Limited and Contributors. All rights reserved. -->
+<!-- SPDX-License-Identifier: MIT -->
 <manifest>
-
   <remote fetch="ssh://git@github.com" name="github" />
   <remote fetch="http://git.linaro.org" name="linaro" />
   <remote fetch="http://git.yoctoproject.org" name="yocto" />
