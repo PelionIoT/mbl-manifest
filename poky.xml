@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2018-2019, Arm Limited and Contributors. All rights reserved. -->
+<!-- SPDX-License-Identifier: MIT -->
+<manifest>
+
+  <remote fetch="ssh://git@github.com" name="github"/>
+  <remote fetch="http://git.yoctoproject.org" name="yocto"/>
+
+  <default revision="warrior" sync-j="4"/>
+
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="warrior-dev"/>
+  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
+  <project name="poky" path="layers/poky" remote="yocto"/>
+
+</manifst>
