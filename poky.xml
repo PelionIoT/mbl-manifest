@@ -12,4 +12,4 @@
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
   <project name="poky" path="layers/poky" remote="yocto"/>
 
-</manifst>
+</manifest>
