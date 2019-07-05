@@ -16,6 +16,5 @@
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
   <project name="git/poky" path="layers/poky" remote="yocto"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.42"/>
-  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
 
 </manifest>
