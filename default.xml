@@ -21,7 +21,7 @@
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.42"/>
-  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" upstream="master"/>
+  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
 </manifest>
