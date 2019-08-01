@@ -24,4 +24,5 @@
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="7e7f09b731ac8ec09cc87ed058908c8479b8c7ab" upstream="master"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" upstream="master" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
+  <project name="git/meta-selinux" path="layers/meta-selinux" remote="yocto"/>
 </manifest>
