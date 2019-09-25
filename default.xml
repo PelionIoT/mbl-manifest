@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright (c) 2018, Arm Limited and Contributors. All rights reserved. -->
+<!-- Copyright (c) 2018-2019, Arm Limited and Contributors. All rights reserved. -->
 <!-- SPDX-License-Identifier: MIT -->
 <manifest>
 
@@ -11,12 +11,12 @@
   <default revision="master" sync-j="4"/>
 
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github"/>
-  <project name="imx/meta-fsl-bsp-release" path="layers/meta-fsl-bsp-release" remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25" />
-  <project name="armmbed/mbl-config" path="conf" remote="github">
-    <linkfile dest="setup-environment" src="setup-environment"/>
-    <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
+  <project name="imx/meta-fsl-bsp-release" path="layers/meta-fsl-bsp-release" remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25"/>
+  <project name="armmbed/mbl-config" path="conf" remote="github"/>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github">
+    <linkfile dest="setup-environment" src="setup-env/setup-environment"/>
+    <linkfile dest="setup-environment-internal" src="setup-env/setup-environment-internal"/>
   </project>
-  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
