@@ -10,19 +10,19 @@
 
   <default revision="warrior" sync-j="4"/>
 
-  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="da422478d38e744283bcf61123c4a526396c7030" upstream="warrior"/>
   <project name="imx/meta-fsl-bsp-release" path="layers/meta-fsl-bsp-release" remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25"/>
-  <project name="armmbed/mbl-config" path="conf" remote="github" revision="warrior-dev"/>
-  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="warrior-dev">
+  <project name="armmbed/mbl-config" path="conf" remote="github" revision="mbl-os-0.9"/>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="mbl-os-0.9">
     <linkfile dest="setup-environment" src="setup-env/setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-env/setup-environment-internal"/>
   </project>
-  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
-  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
-  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
-  <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.42"/>
-  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
-  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
-  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
-  <project name="git/meta-security" path="layers/meta-security" remote="yocto"/>
+  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="2142f7ded1b3115ccc21f7575fd83e2376247193" upstream="warrior"/>
+  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="0750d5d2bc9596f35d5d61bb0ff657be4b02bfdc" upstream="warrior"/>
+  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="e1f24ea8e77f8a3c3266264dd71417c8f9661f89" upstream="warrior"/>
+  <project name="openembedded/bitbake" path="bitbake" remote="github" revision="164c0df429fc9be771c54c241b17d7afb8849afc" upstream="1.42"/>
+  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="853e8e05e55e1bce7cef94ad7515e37e9485f745" upstream="warrior"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="3bdbf72e3a4bf18a4a2c7afbde4f7ab773aeded9" upstream="warrior"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="952bfcc3f4b9ee5ba584da0f991f95e80654355a" upstream="warrior"/>
+  <project name="git/meta-security" path="layers/meta-security" remote="yocto" revision="4f7be0d252f68d8e8d442a7ed8c6e8a852872d28" upstream="warrior"/>
 </manifest>
