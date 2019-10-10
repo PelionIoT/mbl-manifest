@@ -9,7 +9,7 @@
   
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="da422478d38e744283bcf61123c4a526396c7030" upstream="warrior"/>
   <project name="armmbed/mbl-config" path="conf" remote="github" revision="cb2d914f61f2c33f1f44f8f462afbe18487007d3" upstream="mbl-os-0.9"/>
-  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="0ef9ef3000dde09f85d5cea2c59c5ee12f01720e" upstream="mbl-os-0.9">
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="b99629fca2b85b443e71cb2e8f210cb24292c996" upstream="mbl-os-0.9">
     <linkfile dest="setup-environment" src="setup-env/setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-env/setup-environment-internal"/>
   </project>
