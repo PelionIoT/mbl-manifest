@@ -25,5 +25,5 @@
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
   <project name="git/meta-security" path="layers/meta-security" remote="yocto"/>
-  <project name="sbabic/meta-swupdate" path="layers/meta-swupdate" remote="github" revision="warrior"/>
+  <project name="sbabic/meta-swupdate" path="layers/meta-swupdate" remote="github"/>
 </manifest>
