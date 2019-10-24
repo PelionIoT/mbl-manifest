@@ -26,4 +26,5 @@
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
   <project name="git/meta-selinux" path="layers/meta-selinux" remote="yocto"/>
   <project name="git/meta-security" path="layers/meta-security" remote="yocto"/>
+  <project name="sbabic/meta-swupdate" path="layers/meta-swupdate" remote="github"/>
 </manifest>
