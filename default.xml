@@ -11,12 +11,12 @@
   <default revision="warrior" sync-j="4"/>
 
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github"/>
-  <project name="imx/meta-fsl-bsp-release" path="layers/meta-fsl-bsp-release" remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25" />
-  <project name="armmbed/mbl-config" path="conf" remote="github" revision="warrior-dev">
-    <linkfile dest="setup-environment" src="setup-environment"/>
-    <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
+  <project name="imx/meta-fsl-bsp-release" path="layers/meta-fsl-bsp-release" remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25"/>
+  <project name="armmbed/mbl-config" path="conf" remote="github" revision="warrior-dev"/>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="sdh_iotmbl_2599_rebase_review_fixes">
+    <linkfile dest="setup-environment" src="setup-env/setup-environment"/>
+    <linkfile dest="setup-environment-internal" src="setup-env/setup-environment-internal"/>
   </project>
-  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="5612766788da5b4796e53fac5a6e63d25bd2296a"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
@@ -25,4 +25,5 @@
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
   <project name="git/meta-security" path="layers/meta-security" remote="yocto"/>
+  <project name="sbabic/meta-swupdate" path="layers/meta-swupdate" remote="github"/>
 </manifest>
