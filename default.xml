@@ -3,7 +3,7 @@
 <!-- SPDX-License-Identifier: MIT -->
 <manifest>
 
-  <remote fetch="ssh://git@github.com" name="github"/>
+  <remote fetch="https://github.com" pushurl="git@github.com:" name="github"/>
   <remote fetch="http://git.linaro.org" name="linaro"/>
   <remote fetch="http://git.yoctoproject.org" name="yocto"/>
   <remote fetch="https://source.codeaurora.org/external" name="CAF"/>
