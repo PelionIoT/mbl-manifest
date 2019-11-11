@@ -17,7 +17,7 @@
     <linkfile dest="setup-environment" src="setup-env/setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-env/setup-environment-internal"/>
   </project>
-  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
+  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="752c4b7b293e16e38c5d1e432449d92c08089d61"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github"/>
