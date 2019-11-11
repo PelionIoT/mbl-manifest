@@ -3,8 +3,8 @@
 <!-- SPDX-License-Identifier: MIT -->
 <manifest>
 
-  <remote fetch="ssh://git@github.com" name="github"/>
-  <remote fetch="http://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="https://github.com" name="github"/>
+  <remote fetch="https://git.yoctoproject.org" name="yocto"/>
 
   <default revision="warrior" sync-j="4"/>
 
@@ -12,5 +12,7 @@
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
   <project name="git/meta-security" path="layers/meta-security" remote="yocto"/>
   <project name="git/poky" path="layers/poky" remote="yocto"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
 
 </manifest>
