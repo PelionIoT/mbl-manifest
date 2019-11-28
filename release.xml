@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/external" name="CAF"/>
+  <remote fetch="https://github.com" name="github" pushurl="git@github.com:"/>
+  <remote fetch="http://git.linaro.org" name="linaro"/>
+  <remote fetch="http://git.yoctoproject.org" name="yocto"/>
+  
+  <default revision="warrior" sync-j="4"/>
+  
+  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="da422478d38e744283bcf61123c4a526396c7030" upstream="warrior"/>
+  <project name="armmbed/mbl-config" path="conf" remote="github" revision="63e859ff2dff7649815ff9409d35fc68298b028a" upstream="warrior-dev"/>
+  <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github" revision="f9a6094a28c9bfd550a55a6f9e44509322730b93" upstream="warrior-dev">
+    <linkfile dest="setup-environment" src="setup-env/setup-environment"/>
+    <linkfile dest="setup-environment-internal" src="setup-env/setup-environment-internal"/>
+  </project>
+  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="0bde01370b18adf36fb59b87b661c9272fecbce2" upstream="warrior"/>
+  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="5cb49f4d76a311201bd36cf6538e23a59e3d8030" upstream="warrior"/>
+  <project name="git/meta-security" path="layers/meta-security" remote="yocto" revision="4f7be0d252f68d8e8d442a7ed8c6e8a852872d28" upstream="warrior"/>
+  <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="bda5b6ab326a4926aedd32f137de5f3837c8cdb8" upstream="warrior"/>
+  <project name="imx/meta-fsl-bsp-release" path="layers/meta-fsl-bsp-release" remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25"/>
+  <project name="openembedded/bitbake" path="bitbake" remote="github" revision="4ce50bbd34eefeabfeca89a6a66c71598d3c58f6" upstream="1.42"/>
+  <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="853e8e05e55e1bce7cef94ad7515e37e9485f745" upstream="warrior"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="a24acf94d48d635eca668ea34598c6e5c857e3f8" upstream="warrior"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="0a1b1e88b936177344392e185fbd077622d88b3e" upstream="warrior"/>
+  <project name="sbabic/meta-swupdate" path="layers/meta-swupdate" remote="github" revision="7ebe40f1a9b312476580fc74541231ac202feaa4" upstream="warrior"/>
+</manifest>
