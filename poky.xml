@@ -13,6 +13,5 @@
   <project name="git/meta-security" path="layers/meta-security" remote="yocto"/>
   <project name="git/poky" path="layers/poky" remote="yocto"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
-  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
 
 </manifest>
