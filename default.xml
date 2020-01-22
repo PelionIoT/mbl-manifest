@@ -7,6 +7,7 @@
   <remote fetch="http://git.linaro.org" name="linaro"/>
   <remote fetch="http://git.yoctoproject.org" name="yocto"/>
   <remote fetch="https://source.codeaurora.org/external" name="CAF"/>
+  <remote fetch="https://git.openembedded.org" name="openembedded"/>
 
   <default revision="master" sync-j="4"/>
 
@@ -27,4 +28,5 @@
   <project name="git/meta-selinux" path="layers/meta-selinux" remote="yocto"/>
   <project name="git/meta-security" path="layers/meta-security" remote="yocto"/>
   <project name="sbabic/meta-swupdate" path="layers/meta-swupdate" remote="github"/>
+  <project name="meta-python2" path="layers/meta-python2" remote="openembedded"/>
 </manifest>
